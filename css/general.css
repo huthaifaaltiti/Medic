@@ -1,0 +1,155 @@
+/* texts */
+
+.heading-1 {
+  color: var(--color-white);
+  font-family: var(--font-primary);
+  font-size: 6rem;
+  font-weight: 700;
+  /* inline-size: 47rem; */
+  line-height: 1.4;
+  text-align: left;
+  /* text-transform: uppercase; */
+}
+
+.heading-2 {
+  color: var(--color-white);
+  font-family: var(--font-primary);
+  font-size: 4rem;
+  font-weight: 700;
+  /* inline-size: 47rem; */
+  line-height: 1.4;
+  text-align: left;
+  /* text-transform: uppercase; */
+}
+
+.heading-3 {
+  font-family: var(--font-display);
+  color: var(--color-black);
+  font-size: 3.6rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.heading-4 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-top: 1rem;
+  text-align: center;
+  color: var(--color-black);
+}
+
+.heading-5 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-top: 1rem;
+  text-align: center;
+  color: var(--color-primary-1);
+}
+
+.span-green {
+  font-size: 10rem;
+  color: var(--color-primary-1);
+  text-transform: uppercase;
+}
+
+.span-number {
+  display: inline-block;
+  font-weight: 700;
+  color: var(--color-primary-2);
+}
+
+.para-text {
+  color: var(--color-white);
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-top: 2rem;
+}
+
+.para-text-bg {
+  font-size: 2.2rem;
+  font-weight: 500;
+  margin-top: 2rem;
+}
+
+.para-text-norml {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: var(--color-white);
+  margin-top: 1.8rem;
+}
+
+.emph-text {
+  font-style: italic;
+}
+
+/* texts */
+
+/* btns */
+
+.btn {
+  display: inline-block;
+
+  font-size: 1.6rem;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+
+  padding: 1.2rem 2rem;
+  margin-top: 20rem;
+
+  color: var(--color-white);
+  border: none;
+  background-color: var(--color-primary-3);
+
+  cursor: pointer;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.cta-btn {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--color-white);
+  background-color: var(--color-primary-2);
+  border: none;
+  border-radius: .5rem;
+
+  padding: 1.5rem 3rem;
+  letter-spacing: 1px;
+  margin-top: 3rem;
+
+  transition: all 0.4s;
+}
+
+.cta-btn:hover {
+  color: var(--color-primary-2);
+  background-color: var(--color-white);
+
+  cursor: pointer;
+}
+
+/* btns */
+
+/* margins */
+
+.mt-hi {
+  margin-top: 8rem;
+}
+
+.mt-med {
+  margin-top: 4rem;
+}
+
+.mt-sml {
+  margin-top: 2rem;
+}
+
+/* margins */
+
+.color-white {
+  color: var(--color-white);
+}
+
+
+

@@ -1,0 +1,175 @@
+.offers-section{
+  width: 100%;
+  height: 100%;
+
+  padding: 12rem 0;
+
+  background-color: var(--color-white);
+}
+
+.offers-container{
+  width: 80%;
+  max-width: 192rem;
+  margin: 0 auto;
+
+  /* background-color: red; */
+
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  column-gap: 2rem;
+  row-gap: 2rem;
+}
+
+.thermo{
+  height: 30rem;
+  border-radius: 5px;
+  background-color: var(--color-grey);
+
+  grid-column: 1 / 6;
+  grid-row: span 2;
+}
+
+.thermo-container{
+  height: 100%;
+  width: 100%;
+
+  padding: 2rem;
+
+  display: flex;
+  gap: 2rem;
+
+}
+
+.thermo-content{
+  width: 50%;
+  
+
+}
+
+.thermo-heading{
+  color: var(--color-black);
+}
+
+.thermo-para{
+  inline-size: 27rem;
+
+  font-weight: 400;
+
+  color: var(--color-grey-light-5);
+}
+
+.thermo-btn{
+  background-color: var(--color-primary-1);
+  color: var(--color-white);
+  box-shadow: rgba(7, 106, 236, 0.2) 0px 8px 24px;
+
+  cursor: pointer;
+}
+
+.thermo-btn:hover{
+  background-color: var(--color-black);
+  color: var(--color-white);
+
+  cursor: pointer;
+}
+
+.thermo-img-container{
+  width: 50%;
+}
+
+.thermo-img{
+  width: 100%;
+  height: 100%;
+}
+
+
+.free{
+  height: 30rem;
+  border-radius: 5px;
+  padding: 3rem;
+  background-color: var(--color-primary-1);
+
+  grid-column: 6 / 9;
+  grid-row: span 2;
+}
+
+.free-percent-span{
+  font-size: 7rem;
+  font-weight: 700;
+
+  color: var(--color-white);
+
+  margin-right: 1rem;
+}
+
+.free-span{
+  font-size: 6rem;
+  font-weight: 500;
+
+  color: var(--color-white);
+}
+
+.para-text-free {
+
+  margin-top: 1rem;
+}
+
+.trusted-brands{
+  height: 30rem;
+  border-radius: 5px;
+  padding: 3rem;
+  background-color: var(--color-primary-2);
+
+  grid-column: 1 / 4;
+  grid-row: span 2;
+}
+
+.trusted-brands-list{
+  
+  font-size: 1.6rem;
+  color: var(--color-white);
+
+  margin-top: 1rem;
+  margin-left: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.stethoscope{
+  height: 30rem;
+  border-radius: 5px;
+  background-color: var(--color-grey);
+
+  grid-column: 4 / 9;
+  grid-row: span 2;
+
+  position: relative;
+}
+
+.stethoscope-container{
+  height: 100%;
+  width: 100%;
+
+  padding: 2rem;
+
+  display: flex;
+  gap: 2rem;
+
+  z-index: 2;
+}
+
+.stethoscope-content{
+  margin-top: 1.5rem;
+  z-index: 3;
+}
+
+.Stethoscope-img{
+  /* width: 30rem; */
+
+  position: absolute;
+  right: 0;
+  top: 0;
+}

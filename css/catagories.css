@@ -1,0 +1,329 @@
+.catagories-section {
+  width: 100%;
+  height: 100%;
+
+  background-color: var(--color-white);
+
+  padding: 8rem 0;
+}
+
+.catagories-container {
+  width: 80%;
+  max-width: 192rem;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.catagories-top-content {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading-catagories {
+  text-align: center;
+  color: var(--color-black);
+}
+
+.para-text-catagories {
+  color: var(--color-grey-light-5);
+  text-align: center;
+}
+
+.catagories-top-btn-group {
+  margin-top: 2rem;
+}
+
+.catag-btn-focused {
+  color: var(--color-white);
+  background-color: var(--color-primary-1);
+  box-shadow: rgba(7, 106, 236, 0.2) 0px 8px 24px;
+}
+
+.catag-btn-focused:hover {
+  color: var(--color-white);
+  background-color: var(--color-primary-1);
+  box-shadow: rgba(7, 106, 236, 0.2) 0px 8px 24px;
+}
+
+.catag-btn {
+  color: var(--color-grey-dark-4);
+  background-color: var(--color-white);
+}
+
+.catag-btn:hover {
+  color: var(--color-white);
+  background-color: var(--color-primary-1);
+  box-shadow: rgba(7, 106, 236, 0.2) 0px 8px 24px;
+}
+
+.catagories-mid-content {
+  width: 100%;
+
+  padding: 3rem 0;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 4rem;
+  row-gap: 3rem;
+}
+
+.catag-card {
+  height: 43rem;
+
+  background-color: var(--color-grey);
+  border-radius: 5px;
+}
+
+.catag-card-top {
+  height: 60%;
+  width: 100%;
+
+  padding: 2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+
+.catag-hover-container {
+  display: block;
+  opacity: 0;
+  visibility: none;
+
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+  top: 0;
+  right: 0%;
+
+  transform: translateY(1rem);
+
+  transition: all 0.5s;
+}
+
+.catag-card:hover .catag-hover-container {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0rem);
+}
+
+.catag-hover-trans {
+  width: 100%;
+  height: 80%;
+
+  background-image: linear-gradient(
+    rgba(53, 200, 223, 0.051),
+    rgba(53, 200, 223, 0.1)
+  );
+}
+
+.catag-hover-btns {
+  width: 100%;
+  height: 20%;
+
+  display: flex;
+}
+
+.catag-hover-btn {
+  outline: none;
+  border: none;
+
+  width: 50%;
+  height: 100%;
+
+  color: var(--color-white);
+
+  font-size: 1.6rem;
+
+  transition: all 0.4s ease;
+}
+
+.catag-hover-btn:hover {
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+
+.catag-hover-btn--1 {
+  background-color: var(--color-primary-2);
+}
+
+.catag-hover-btn--2 {
+  background-color: var(--color-primary-1);
+}
+
+.catag-img {
+  width: 100%;
+  height: 100%;
+}
+
+.catag-card-bot {
+  height: 40%;
+  width: 100%;
+
+  background-color: #f4f4f4;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.catag-card-link:link,
+.catag-card-link:visited {
+  display: inline-block;
+
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: var(--color-grey-dark-4);
+
+  transition: color 0.3s ease;
+}
+
+.catag-card-link:hover,
+.catag-card-link:active {
+  color: var(--color-primary-2);
+}
+
+.catag-card-span {
+  font-size: 2rem;
+  font-weight: 400;
+  color: var(--color-primary-1);
+}
+
+.catag-svg-icon {
+  width: 1.3rem;
+  height: 1.3rem;
+
+  fill: var(--color-grey-dark-1);
+}
+
+.span-card-container--5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.span-card--5 {
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--color-grey-light-5);
+
+  position: relative;
+}
+
+
+.span-card--5::after {
+  display: inline-block;
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: var(--color-grey-light-5);
+
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+
+.catagories-bot-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  margin-top: 3rem;
+}
+
+.catag-arr-btn {
+  border: none;
+  outline: none;
+
+  background-color: transparent;
+
+  cursor: pointer;
+}
+.catag-svg-icon-bot {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 3px;
+
+  fill: var(--color-white);
+  background-color: var(--color-primary-1);
+  box-shadow: rgba(7, 106, 236, 0.2) 0px 8px 24px;
+
+  transition: all .4s;
+}
+
+.catag-svg-icon-bot:hover {
+  fill: var(--color-white);
+  background-color: var(--color-black);
+}
+
+
+.catag-card--5{
+  position: relative;
+}
+
+.catag-card--5::before{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  content: "Sale";
+  font-size: 1rem;
+  color: var(--color-white);
+
+  width: 3rem;
+  height: 3rem;
+  border-radius: 100%;
+  background-color: var(--color-primary-1);
+
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+
+  z-index: 20;
+}
+
+.catag-card--8{
+  position: relative;
+}
+
+.catag-card--8::before{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  content: "Sold out";
+  font-size: 1rem;
+  line-height: 1rem;
+  color: var(--color-white);
+  text-align: center;
+
+  width: 3rem;
+  height: 3rem;
+  border-radius: 100%;
+  background-color: var(--color-primary-1);
+
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+
+  z-index: 20;
+}

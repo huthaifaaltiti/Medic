@@ -1,0 +1,43 @@
+.arrival-bot-content{
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+
+  margin-top: 6rem;
+}
+
+.arrival-bot-left{
+  background-color: var(--color-primary-2);
+
+  width: 50%;
+  border-radius: 5px;
+  padding: 2rem 4rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.arrival-bot-right{
+  background-color: var(--color-primary-1);
+
+  width: 50%;
+  border-radius: 5px;
+  padding: 2rem 4rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.arrival-svg-icon{
+  width: 14rem;
+  height: 14rem;
+
+  fill: var(--color-white);
+}

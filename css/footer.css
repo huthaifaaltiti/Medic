@@ -1,0 +1,298 @@
+.footer {
+  width: 100%;
+  /* height: 70vh; */
+
+  background-color: #1b232f;
+}
+
+.footer-top-container {
+  width: 100%;
+
+  border-bottom: 1px solid var(--color-grey-dark-4);
+}
+
+.footer-top {
+  width: 70%;
+  max-width: 192rem;
+  margin: 0 auto;
+
+  padding: 1rem 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-form {
+  width: 30%;
+
+  position: relative;
+}
+
+.footer-form-input {
+  height: 5rem;
+  width: 100%;
+
+  outline: none;
+  border: none;
+  border-radius: 5px;
+
+  font-size: 1.6rem;
+  text-indent: 2rem;
+
+  background-color: #263036;
+}
+
+.footer-form-submit {
+  border: none;
+  color: var(--color-white);
+  font-size: 1.6rem;
+
+  padding: 1.5rem 2rem;
+  border-radius: 0 5px 5px 0;
+
+  background-color: var(--color-primary-1);
+
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  cursor: pointer;
+
+  transition: all 0.4s;
+}
+
+.footer-form-submit:hover {
+  background-color: var(--color-white);
+  color: var(--color-primary-1);
+
+  cursor: pointer;
+}
+
+.footer-social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.footer-svg {
+  width: 1.5rem;
+  height: 1.5rem;
+
+  fill: var(--color-white);
+
+  transition: fill 0.4s;
+}
+
+.footer-svg:hover {
+  fill: var(--color-primary-1);
+}
+
+.footer-mid-container {
+  width: 100%;
+
+  border-bottom: 1px solid var(--color-grey-dark-4);
+}
+
+.footer-mid {
+  width: 75%;
+  max-width: 192rem;
+  margin: 0 auto;
+
+  padding: 4rem 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-home-list {
+  list-style: none;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.footer-home-item {
+  color: var(--color-white);
+
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 1rem;
+}
+
+.footer-home-item:first-child {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+
+.footer-help-list {
+  list-style: none;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.help-first-child{
+  font-size: 1.8rem;
+  font-weight: 700;
+
+  color: var(--color-white);
+
+  padding-left: 1rem;
+}
+
+
+.footer-svg-link {
+  width: 1.5rem;
+  height: 1.5rem;
+
+  fill: var(--color-white);
+
+  transition: fill 0.3s;
+}
+.footer-svg-link:hover {
+  fill: var(--color-primary-1);
+}
+
+.footer-link-email:link,
+.footer-link-email:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: var(--color-white);
+
+  transition: color 0.3s;
+}
+
+
+.footer-link-email:hover,
+.footer-link-email:active {
+  color: var(--color-primary-1);
+}
+
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: var(--color-white);
+
+  transition: color 0.3s;
+}
+
+
+.footer-link:hover,
+.footer-link:active {
+  color: var(--color-primary-1);
+}
+
+.footer-link::before {
+  content: "";
+  display: inline-block;
+
+  height: 1.5rem;
+  width: 1.5rem;
+  vertical-align: middle;
+  padding-right: 1rem;
+
+  background-color: var(--color-white);
+  -webkit-mask-image: url(../imgs/SVG/cheveron-right.svg);
+  -webkit-mask-size: cover;
+}
+
+.footer-link:hover::before {
+  background-color: var(--color-primary-1);
+}
+
+
+.footer-bot-container {
+  width: 75%;
+  max-width: 192rem;
+  margin: 0 auto;
+
+  padding: 2rem 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-bot-list{
+  list-style: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer-bot-item{
+  height: 2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-bot-item:not(:last-child){
+  border-right: 1px solid #fff;
+
+  padding: 0 1rem;
+}
+
+.footer-bot-link:link,
+.footer-bot-link:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: var(--color-white);
+
+  transition: color 0.3s;
+}
+
+
+.footer-bot-link:hover,
+.footer-bot-link:active {
+  color: var(--color-primary-1);
+}
+
+.footer-cards{
+  background-color: #000;
+  
+  padding: 2rem 0;
+}
+
+.footer-card-contaner{
+  width: 75%;
+  max-width: 192rem;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-copy{
+  font-size: 1.6rem;
+  color: #fff;
+}
+
+.footer-cards-svg-group{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+}
+
+.footer-card-svg{
+  width: 4rem;
+  height: 3rem;
+
+  background-color: #fff;
+  border-radius: 3px;
+}

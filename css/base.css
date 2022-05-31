@@ -1,0 +1,105 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+:root {
+  --color-primary-1: #076cec;
+  --color-primary-1-light-1: #207bee;
+  --color-primary-1-light-2: #3989f0;
+  --color-primary-1-dark-1: #0661d4;
+  --color-primary-1-dark-2: #0656bd;
+
+  --color-primary-2: #35c7df;
+  --color-primary-2-light-1: #49cde2;
+  --color-primary-2-light-2: #5dd2e5;
+  --color-primary-2-dark-1: #30b3c9;
+  --color-primary-2-dark-2: #2a9fb2;
+  
+  --color-primary-3: #263036;
+ 
+
+  --color-white: #fff;
+  --color-black: #000;
+  --color-grey: #f6f6f6;
+  --color-grey-light-1: #e9ecef;
+  --color-grey-light-2: #dee2e6;
+  --color-grey-light-3: #ced4da;
+  --color-grey-light-4: #adb5bd;
+  --color-grey-light-5: #868e96;
+  --color-grey-light-6: #495057;
+  --color-grey-dark-1: #999;
+  --color-grey-dark-2: #777;
+  --color-grey-dark-3: #555;
+  --color-grey-dark-4: #333;
+
+  --shadow-dark-1: 0 2rem 6rem rgba(0, 0, 0, 0.3);
+  --shadow-dark-2: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  --shadow-light-1: 0 10px 10px -6px rgba(0, 0, 0, 0.3);
+  --shadow-light-2: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  --shadow-light-3: 0 1rem 2rem rgba(0, 0, 0, 0.02);
+  --shadow-light-4: 0 0 4px 0 rgb(0 0 0 / 18%);
+  --shadow-light-5: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+  --font-primary: "Mulish", sans-serif;
+  /* --font-display: "Abril Fatface", Display; */
+}
+
+body {
+
+
+  font-family: var(--font-primary);
+  font-size: 1.6rem;
+  line-height: 1.7;
+  font-weight: 400;
+
+  position: relative;
+}
+
+.main-container{
+  width: 100%;
+  height: 100%;
+
+  position: relative;
+
+  overflow: hidden;
+}
+
+.screen-btn{
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+
+  border: none;
+  outline: none;
+  background-color: transparent;
+
+  cursor: pointer;
+}
+
+.screen-svg-icon{
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 3px;
+
+  padding: .5rem;
+
+  background-color: var(--color-primary-1);
+  fill: var(--color-white);
+
+  transition: all .4s;
+}
+
+.screen-svg-icon:hover{
+
+  background-color: var(--color-black);
+  fill: var(--color-white);
+}
